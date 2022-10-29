@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+</head>
+
+<body bgcolor="yellow">
+    <!-- navbar -->
+    <div id="nav">
+        <table height="15" cellspacing="50">
+            <tr>
+                <td>
+                    <h1>ONWUMERE OKECHUKWU CHARLES</h1>
+                </td>
+                <td><a href="home.html">Home</a></td>
+                <td>
+                    <a href="about.html">About</a>
+                </td>
+                <td>
+                    <a href="work.html">Work</a>
+                </td>
+                <td>
+                    <a href="resume.html">Resume</a>
+                </td>
+                <td>
+                    <a href="contact.html">Contact</a>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+    <div id="contact">
+        <p>
+            You can contact me by sending a message in the space below
+        </p>
+    </div>
+    <div id="form">
+        <form action="submit">
+            <table>
+                <tr>
+                    <td>
+                        <label for="name">Name:</label>
+                    </td>
+                    <td>
+                        <input type="text" id="name" required placeholder="John Adu">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="date">Date of Birth</label>
+                    </td>
+                    <td>
+                        <input type="date" id="date">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="email">Email:</label>
+                    </td>
+                    <td>
+                        <input type="email" id="email" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="phone">Phone No (&#128222)</label>
+                    </td>
+                    <td>
+                        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{4}-[0-9][3}" placeholder="123-4567-890" required><br>
+                    </td>
+                </tr>
+                <tr>
+
+                    <td>
+                        <label for="country">Nationality</label>
+                    </td>
+                    <td>
+                        <select>
+                      <option value="# ">Choose one</option>
+                      <option value="male" selected>Nigeria</option>
+                      <option value="female ">Ghana</option>
+                      <option value="others ">Togo</option>
+                    </select>
+                    </td>/
+
+                </tr>
+                <tr>
+                    <td>
+                        <label for="message">Leave a Message</label><br>
+                    </td>
+                    <td>
+                        <textarea name="" id="message" cols="30" rows="10" maxlength="50" placeholder="Leave a message of not more than 50 characters"></textarea>
+                    </td>
+                </tr>
+                <td>
+
+                </td>
+                <td>
+                    <input type="reset">
+
+                    <input type="submit">
+                </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+
+</body>
+
+</html>
